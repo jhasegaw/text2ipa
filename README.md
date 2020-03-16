@@ -23,8 +23,10 @@ t2ipa <language> <inputfile> <outputfile>
 Usage in python:
 
 ```python
-import text2ipa
-converter=text2ipa.Converter('English')
-output=converter.convert('this is a test')
+>>> import text2ipa
+>>> converter=text2ipa.Converter('English')
+>>> output=converter.convert('this is a test')
+>>> print(output)
+θɪs ɪs ə tɛst
 ```
 
