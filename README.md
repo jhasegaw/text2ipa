@@ -24,7 +24,7 @@ Usage in python:
 
 ```python
 import text2ipa
-languagename='eng-us'  # for example
-output=text2ipa.convert(languagename, 'myfile.txt')
+converter=text2ipa.Converter('English')
+output=converter.convert('this is a test')
 ```
 
