@@ -1,0 +1,7 @@
+*~
+*.egg-info
+old
+fixtures
+info
+build
+dist
